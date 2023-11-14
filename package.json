@@ -6,4 +6,4 @@
     "build": "tailwind -i ./input.css -o ./dist/output.css",
     "watch": "tailwind -i ./input.css -o ./dist/output.css --watch"
   }
-main
+}
