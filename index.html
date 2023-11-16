@@ -9,20 +9,15 @@
       type="text/javascript"
       src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
     ></script>
-    <title>Praxis Lenga</title>
+    <title>Physiotherapie Lenga</title>
   </head>
-    <!-- Header -->
-    <!--
-        -background
-        -img(logo der ursprungs website)
-        -nav (4kontakt, 3servise, 1home, 2Praxis)
-     -->
-    <header class=" lg:p-20 ">
-      <nav class="fixed top-0 left-0 right-0 z-10  ">
+   <body class="bg-[#B5816C]">
+    <header class=" lg:p-20 bg-[#B5816C]">
+      <nav class="fixed top-0 left-0 right-0 z-10 bg-[#B5816C]">
         <div
           class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 "
         >
-          <a href="#" class="bg-gray-50 flex items-center space-x-3 rtl:space-x-reverse rounded">
+          <a href="#" class=" flex items-center space-x-3 rtl:space-x-reverse rounded">
             <img
               src="./images/physiotherapie_lenga_logo.gif"
               class="w-full h-full"
@@ -60,7 +55,7 @@
                   href="#"
                   class="block py-2 px-3 rounded md:bg-transparent text-teal-700 md:p-0"
                   aria-current="page"
-                  >Haus</a
+                  >Home</a
                 >
               </li>
               <li>
@@ -72,7 +67,7 @@
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#service"
                   class="block py-2 px-3 text-gray-900 rounded  md:hover:bg-transparent md:border-0 lg:hover:text-teal-700 md:p-0 "
                   >Dienstleistungen</a
                 >
@@ -80,7 +75,7 @@
 
               <li>
                 <a
-                  href="#"
+                  href="#footer"
                   class="block py-2 px-3 text-gray-900 rounded  md:hover:bg-transparent md:border-0 lg:hover:text-teal-700 md:p-0 "
                   >Kontakt</a
                 >
@@ -96,12 +91,12 @@
        -->
     
 
-    <main class=" grid lg:grid-cols-5 mt-20">
+    <main class=" grid lg:grid-cols-5 mt-20 ">
         <!-- aside-left -->
     <!--
         -öffnungszeiten + kontakt
        -->
-      <aside class=" sticky top-0 p-8 text-center">
+      <aside class="bg-[#B5816C] top-0 p-8 text-center">
         <h4 class="my-10 text-gray-300 text-3xl">Öffnungszeiten</h4>
         <p class="leading-10 text-xl">
           Mo. - Do. 8:00 - 19:00 Uhr <br />
@@ -115,7 +110,7 @@
         -section1(foto galerie+beschreibung)
         -section2
       -->
-      <section class=" lg:row-span-3 lg:col-span-3 border-2 bg-red-500"><div
+      <section class=" lg:row-span-3 lg:col-span-3 border-2"><div
         id="carouselExampleCaptions"
         class="relative"
         data-te-carousel-init
@@ -207,7 +202,7 @@
         </div>
       
         <!--Carousel items-->
-        <div
+        <div id="service"
           class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
           <!--First item-->
           <div
@@ -216,13 +211,13 @@
             data-te-carousel-item
             style="backface-visibility: hidden">
             <img 
-              src="https://physiotherapie-lenga.de/pics/titel2.jpg"
+              src="/images/titel2 (1).jpg"
               class="block w-"
               alt="..." />
             <div
               class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-              <h5 class="text-xl text-black ">Manuelle Therapie</h5>
-              <p class="text-black">
+              <h5 class="text-xl  ">Manuelle Therapie</h5>
+              <p>
                 Erlkärung hier....
               </p>
             </div>
@@ -488,7 +483,7 @@ style="backface-visibility: hidden">
     <!-- 
     -bewertung+googlelink
  -->
-      <aside class="sticky top-0 p-8 text-center">
+      <aside class="sticky top-0 p-8 text-center bg-[#B5816C]">
         <h4 class="my-10 text-gray-300 text-3xl">Kontakt</h4>
         <p class="leading-10 text-xl">
           Silke Lenga <br />Stuttgarter Allee 6 04209 Leipzig <br />Telefon:
@@ -502,7 +497,7 @@ style="backface-visibility: hidden">
         -sozial media 
         -copyright
        -->
-    <footer class="">
+    <footer id="footer" class="bg-[#B5816C]">
       <!-- Container for demo purpose --><!-- Container for demo purpose -->
 <div class="container my-24 mx-auto md:px-6">
   <!-- Section: Design Block -->
@@ -569,7 +564,7 @@ style="backface-visibility: hidden">
                   type="button"
                   data-te-ripple-init
                   data-te-ripple-color="light"
-                  class="inline-block w-full rounded bg-primary px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] lg:mb-0">
+                  class="inline-block w-full rounded bg-[#00827B] px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] lg:mb-0">
                   Senden
                 </button>
               </form>
